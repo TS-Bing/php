@@ -1,5 +1,7 @@
 1.创建数据和表名
+
 CREATE DATABASES sgk
+
 CREATE TABLE `data_126` (`id` int(10) NOT NULL AUTO_INCREMENT,`username` varchar(40) DEFAULT NULL,`nickname` varchar(40) DEFAULT NULL,`password` varchar(60) DEFAULT NULL,`salt` varchar(32)`,email` varchar(40) DEFAULT NULL,`mobile` varchar(50) DEFAULT NULL,`idcard` varchar(30) DEFAULT NULL,`address` varchar(100) DEFAULT NULL,`site` varchar(30) DEFAULT NULL,PRIMARY KEY (`id`),KEY `tid` (`username`,`email`)) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 2.使用navcat mysql导入数据
