@@ -1,3 +1,6 @@
+社会工程学系统 
+
+系统配置如下：
 1.创建数据和表名
 
 CREATE DATABASES sgk
